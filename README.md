@@ -1,5 +1,5 @@
 # Neural Network Implementations in PyTorch
----
+
 This repo contains pytorch implementations of various neural networks implemented from their respective white papers.
 As more models are implemented the list will be updated.
 
