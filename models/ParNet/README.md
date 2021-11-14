@@ -1,13 +1,12 @@
 # ParNet - Non-Deep Networks
----
 This is an unofficial PyTorch implementation for ParNet (https://arxiv.org/pdf/2110.07641v1.pdf)
-
-##### Official Repo
-Official Repo: https://github.com/imankgoyal/NonDeepNetworks
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/hexhowells/Neural-Network-Implementations/main/models/ParNet/img/ParNet-Architecture.jpg" width=80%>
 </p>
+
+#### Official Repo
+https://github.com/imankgoyal/NonDeepNetworks
 
 Notes
 -----
