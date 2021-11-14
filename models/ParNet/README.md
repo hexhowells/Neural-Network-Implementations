@@ -8,6 +8,16 @@ This is an unofficial PyTorch implementation for ParNet (https://arxiv.org/pdf/2
 #### Official Repo
 https://github.com/imankgoyal/NonDeepNetworks
 
+#### Citation
+```
+@article{goyal2021nondeep,
+  title={Non-deep Networks},
+  author={Goyal, Ankit and Bochkovskiy, Alexey and Deng, Jia and Koltun, Vladlen},
+  journal={arXiv:2110.07641},
+  year={2021}
+}
+```
+
 Notes
 -----
 - Trained on CIFAR and Caltech256 for verification
