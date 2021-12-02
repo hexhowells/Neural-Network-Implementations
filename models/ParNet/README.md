@@ -29,5 +29,4 @@ TODO
 - Add structural reparameterization (only affects model size at inference so isn't crucial)
 - Look into issue with dim matching as described above
 - Add modified model for CIFAR datasets
-- Add code to train and validate the networks
 - Add pre-trained models
