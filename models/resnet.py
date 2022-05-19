@@ -19,7 +19,7 @@ class Bottleneck(nn.Module):
 
 		if stride != 1 or in_channels != self.expansion*channels:
 			self.projection = nn.Sequential(
-				nn.Conv2d(in_channels, self.expansion*channels, kernel_size=1, stride=stride, bias=False),
+				nn.Conv2d(in_channels, self.expansion*channels, kernel_size=1, stride=1, bias=False),
 				nn.BatchNorm2d(self.expansion*channels)
 			)
 		else:
@@ -50,7 +50,7 @@ class BasicBlock(nn.Module):
 
 		if stride != 1 or in_channels != channels:
 			self.projection = nn.Sequential(
-				nn.Conv2d(in_channels, channels, kernel_size=1, stride=stride, bias=False),
+				nn.Conv2d(in_channels, channels, kernel_size=1, stride=1, bias=False),
 				nn.BatchNorm2d(channels)
 			)
 		else:
