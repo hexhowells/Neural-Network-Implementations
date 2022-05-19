@@ -73,12 +73,13 @@ class ResNet(nn.Module):
 		super(ResNet, self).__init__()
 		self.in_channels = 64
 
-		self.conv1 = nn.Conv2d(3, 64, kernel_size=3, stride=1, padding=1, bias=False)
+		self.conv1 = nn.Conv2d(3, 64, kernel_size=7, stride=2, padding=1, bias=False)
 		self.bn1 = nn.BatchNorm2d(64)
+		self.pool = nn.MaxPool2d(3, stride=2)
 		self.layer1 = self._make_layer(block, 64, layers[0])
-		self.layer2 = self._make_layer(block, 128, layers[1], stride=2)
-		self.layer3 = self._make_layer(block, 256, layers[2], stride=2)
-		self.layer4 = self._make_layer(block, 512, layers[3], stride=2)
+		self.layer2 = self._make_layer(block, 128, layers[1])
+		self.layer3 = self._make_layer(block, 256, layers[2])
+		self.layer4 = self._make_layer(block, 512, layers[3])
 		self.linear = nn.Linear(512*block.expansion, num_classes)
 
 
@@ -93,12 +94,12 @@ class ResNet(nn.Module):
 
 
 	def forward(self, x):
-		x = F.relu(self.bn1(self.conv1(x)))
+		x = F.relu(self.pool(self.bn1(self.conv1(x))))
 		x = self.layer1(x)
 		x = self.layer2(x)
 		x = self.layer3(x)
 		x = self.layer4(x)
-		x = F.avg_pool2d(x, 4)
+		x = F.avg_pool2d(x, x.size()[2:])  # global average pooling
 		x = x.view(x.size(0), -1)
 		x = self.linear(x)
 		return x.to(device='cpu')
