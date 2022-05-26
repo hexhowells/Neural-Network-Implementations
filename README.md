@@ -11,6 +11,7 @@ Implimented Neural Networks
 | AlexNet         | Image Classification | https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf |
 | SENet           | Image Classification | https://arxiv.org/abs/1709.01507 |
 | ResNet          | Image Classification | https://arxiv.org/abs/1704.06904 |
+| ResNetC         | Image Classification | https://arxiv.org/abs/1812.01187 |
 | MobileNetv1     | Image Classification | https://arxiv.org/abs/1704.04861 |
 | MobileNetv2     | Image Classification | https://arxiv.org/abs/1801.04381 |
 | ParNet          | Image Classification | https://arxiv.org/pdf/2110.07641 |
