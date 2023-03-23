@@ -19,5 +19,9 @@ Implimented Neural Networks
 | DGAN            | Image Generation     | https://arxiv.org/abs/1511.06434 |
 | Pix2Pix-256x256 | Image Generation     | https://arxiv.org/abs/1611.07004 |
 | Pix2Pix-512x512 | Image Generation     | https://arxiv.org/abs/1611.07004 |
+| SRCNN           | Image Super-Resolution | https://arxiv.org/abs/1501.00092 |
+| SRGAN           | Image Super-Resolution | https://arxiv.org/abs/1609.04802 |
+| SRResNet        | Image Super-Resolution | https://arxiv.org/abs/1609.04802 |
+
 
 
