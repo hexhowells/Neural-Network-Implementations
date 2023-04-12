@@ -4,7 +4,7 @@ This repo contains pytorch implementations of various neural networks implemente
 
 As more models are implemented the list will be updated.
 
-Implimented Neural Networks
+Implemented Neural Networks
 -----
 | Model           | Category             | Paper     |
 | --------------- | -------------------- | --------- |
