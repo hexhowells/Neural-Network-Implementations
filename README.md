@@ -25,16 +25,17 @@ Implemented Neural Networks
 
 Implementations in other repos
 -----
-| Model                       | Category               | Paper                            | Repo                                  |
+Mostly stopped adding models to this repo, most other paper implementations are done in their own repos or collected in a single project with related models. The following are other implementations hosted outside of this repository.
+| Model                       | Category               | Repo                             | Paper                                 |
 | --------------------------- | ---------------------- | -------------------------------- | ------------------------------------- |
-| NEAT                        | Genetic Algorithms     | https://arxiv.org/abs/1709.01507 | https://github.com/hexhowells/MariPro |
-| DQN                         | Reinforcement Learning | https://arxiv.org/abs/1704.06904 | https://github.com/hexhowells/MariPro |
-| Dueling DQN                 | Reinforcement Learning | https://arxiv.org/abs/1812.01187 | https://github.com/hexhowells/MariPro |
-| RainbowDQN                  | Reinforcement Learning | https://arxiv.org/abs/1704.04861 | https://github.com/hexhowells/MariPro |
-| A2C                         | Reinforcement Learning | https://arxiv.org/abs/1801.04381 | https://github.com/hexhowells/MariPro |
-| Intrinsic Curiosity Module  | Reinforcement Learning | https://arxiv.org/pdf/2110.07641 | https://github.com/hexhowells/MariPro |
-| Random Network Distillation | Reinforcement Learning | https://arxiv.org/pdf/2110.07641 | https://github.com/hexhowells/MariPro |
-| Bootstrap your own latent   | JEPA                   | https://arxiv.org/abs/2006.07733 | https://github.com/hexhowells/JEPA-Models |
-| Forward-Forward algorithm   | Architecture           | https://www.cs.toronto.edu/~hinton/FFA13.pdf | https://github.com/hexhowells/ForwardForward |
-| GPT2                        | Transformers           | https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf | WIP |
+| NEAT                        | Genetic Algorithms     | https://github.com/hexhowells/MariPro | https://arxiv.org/abs/1709.01507 |
+| DQN                         | Reinforcement Learning | https://github.com/hexhowells/MariPro | https://arxiv.org/abs/1704.06904 |
+| Dueling DQN                 | Reinforcement Learning | https://github.com/hexhowells/MariPro | https://arxiv.org/abs/1812.01187 |
+| RainbowDQN                  | Reinforcement Learning | https://github.com/hexhowells/MariPro | https://arxiv.org/abs/1704.04861 |
+| A2C                         | Reinforcement Learning | https://github.com/hexhowells/MariPro | https://arxiv.org/abs/1801.04381 |
+| Intrinsic Curiosity Module  | Reinforcement Learning | https://github.com/hexhowells/MariPro | https://arxiv.org/pdf/2110.07641 |
+| Random Network Distillation | Reinforcement Learning | https://github.com/hexhowells/MariPro | https://arxiv.org/pdf/2110.07641 |
+| Bootstrap your own latent   | JEPA                   | https://github.com/hexhowells/JEPA-Models | https://arxiv.org/abs/2006.07733 |
+| Forward-Forward algorithm   | Architecture           | https://github.com/hexhowells/ForwardForward | https://www.cs.toronto.edu/~hinton/FFA13.pdf |
+| GPT2                        | Transformers           | WIP | https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf |
 
