@@ -37,5 +37,6 @@ Mostly stopped adding models to this repo, most other paper implementations are 
 | Random Network Distillation | Reinforcement Learning | https://github.com/hexhowells/MariPro | https://arxiv.org/pdf/2110.07641 |
 | Bootstrap your own latent   | JEPA                   | https://github.com/hexhowells/JEPA-Models | https://arxiv.org/abs/2006.07733 |
 | Forward-Forward algorithm   | Architecture           | https://github.com/hexhowells/ForwardForward | https://www.cs.toronto.edu/~hinton/FFA13.pdf |
-| GPT2                        | Transformers           | WIP | https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf |
+| GPT2                        | Transformers           | https://github.com/hexhowells/tinyGPT | https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf |
+| ViT                         | Transformers           | https://github.com/hexhowells/tinyViT | https://arxiv.org/abs/2010.11929 |
 
